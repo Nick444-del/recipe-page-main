@@ -83,3 +83,62 @@
     font-family: 'Outfit', sans-serif;
     font-size: 16px;
 }
+
+h2{
+    color: var(--nutmeg);
+    font-family: 'Young Serif', sans-serif;
+}
+
+.line{
+    border: 1px solid var(--light-grey);
+}
+
+.ingredients li{
+    font-family: 'Outfit', sans-serif;
+    margin: 15px;
+    color: var(--wege-brown);
+    font-size: var(--para-size);
+    
+}
+
+.instructions li{
+    font-family: 'Outfit', sans-serif;
+    margin: 15px;
+    color: var(--wege-brown);
+    font-size: var(--para-size);
+}
+
+.nutrition p{
+    font-family: 'Outfit', sans-serif;
+    margin: 15px 15px 15px 0;
+    color: var(--wege-brown);
+}
+
+.nutrition table{
+    width: 100%;
+    text-align: left;
+    font-family: 'Outfit', sans-serif;
+    padding: 24px;
+}
+
+.nutrition table tr th{
+    font-weight: 300;
+    color: var(--wege-brown);
+    font-size: var(--para-size);
+    padding: 5px 10px;
+
+}
+
+.nutrition table tr td{
+    color: var(--dark-charcoal);
+    font-weight: 700;
+    padding: 5px 10px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .container{
+        width: 100%;
+    }
+}
